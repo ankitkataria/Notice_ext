@@ -7,7 +7,7 @@
 			"matches":[
 				"<all_urls>"
 			],
-			"js":["content.js"]
+			"js":["jquery-3.1.1.min.js","content.js"]
 		}
 
 	],
@@ -17,10 +17,11 @@
 		"default_title": "Really?"
 	},
 	"background":{
-		"scripts":["background.js"]
+		"scripts":["jquery-3.1.1.min.js","background.js","script.js"]
 	},
 	"permissions":[
 		"activeTab",
-		"https://ajax.googleapis.com/"
+		"https://ajax.googleapis.com/",
+		"http://localhost/*"
 	]
 }
