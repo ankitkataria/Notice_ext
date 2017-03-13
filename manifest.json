@@ -13,11 +13,10 @@
 	],
 	"browser_action":{
 		"default_icon": "bulletin-board.png",
-		"default_popup": "popup.html",
-		"default_title": "Really?"
+		"default_popup": "popup.html"
 	},
 	"background":{
-		"scripts":["jquery-3.1.1.min.js","background.js","script.js"]
+		"scripts":["jquery-3.1.1.min.js","background.js"]
 	},
 	"permissions":[
 		"activeTab",
